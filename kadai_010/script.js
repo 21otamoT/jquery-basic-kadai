@@ -146,6 +146,7 @@ $(function(){
       $('#prefecture').css('background-color','#f79999');
       eroor = true;
       message += '都道府県を選択してください。\n';
+      alert(message);
     }
     else
     {
