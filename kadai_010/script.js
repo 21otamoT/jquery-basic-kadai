@@ -143,8 +143,13 @@ $(function(){
     }
     //セレクトボックスのチェック
     if ($('#prefecture').val()== false) {
+      $('#prefecture').css('background-color','#f79999');
       eroor = true;
       message += '都道府県を選択してください。\n';
+    }
+    else
+    {
+      $('#prefecture').css('background-color','#fafafa');
     }
     // エラーの有無で送信ボタンを切り替え
     if (eroor == true) {
